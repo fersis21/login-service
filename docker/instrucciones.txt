@@ -1,0 +1,14 @@
+1) Levantar POSTGRES con Docker
+# En poweshell ingresar a la ruta
+    cd C:\dev\postgres-local\
+# Crear al archvo dokcer compose yaml: docker-compose.yml (adjunto ejm)
+# Levantar el contenedor
+   docker compose up -d
+# Verificar que si levanto
+  docker ps
+  Devbe mostrar el postgres ariba
+2) CONECTARSE A LA BD POSTGRES
+ # Con el DBeaver conectarse con los siguietnes datos:
+Servidor: localhost
+usuario: devuser
+pass: devpass
